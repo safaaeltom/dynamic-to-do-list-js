@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let btn = document.createElement("button");
             btn.textContent = "Remove";
-            btn.classList.add("remove-button");
+            btn.classList.add("remove-btn");
             btn.onclick = function() {
                 list.remove();
             };
